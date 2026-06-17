@@ -1,0 +1,16 @@
+# Local overrides & secrets
+config.local.php
+.env
+
+# Logs / OS / editor junk
+*.log
+.DS_Store
+.idea/
+.vscode/
+
+# Dependencies (none required, but just in case)
+/vendor/
+
+# Local SQLite test databases
+*.db
+*.sqlite
