@@ -156,18 +156,18 @@ INSERT INTO categories (name, description) VALUES
 
 -- Products (category_id values follow the insert order above: 1..4)
 INSERT INTO products (name, description, price, stock_quantity, image_url, category_id) VALUES
-('Aurora Wireless Headphones', 'Over-ear wireless headphones with active noise cancellation and 30-hour battery life.', 129.99, 40,  'https://picsum.photos/seed/aurora-headphones/600/400', 1),
-('Pulse Bluetooth Speaker',    'Compact 360° speaker with deep bass and IPX7 water resistance.',                        59.99,  75,  'https://picsum.photos/seed/pulse-speaker/600/400',     1),
-('Nimbus 4K Action Camera',    'Rugged 4K/60fps action camera with stabilization and waterproof housing.',              199.99, 25,  'https://picsum.photos/seed/nimbus-camera/600/400',     1),
-('Quill Noise-Canceling Earbuds', 'True-wireless earbuds with hybrid ANC and a pocket-size charging case.',             99.99,  0,   'https://picsum.photos/seed/quill-earbuds/600/400',     1),
-('Forge Mechanical Keyboard',  'Hot-swappable mechanical keyboard with tactile switches and RGB backlight.',            89.99,  60,  'https://picsum.photos/seed/forge-keyboard/600/400',    2),
-('Glide Ergonomic Mouse',      'Silent ergonomic mouse with adjustable DPI and a sculpted grip.',                       39.99,  120, 'https://picsum.photos/seed/glide-mouse/600/400',       2),
-('Volt USB-C Charger 65W',     'Gallium-nitride 65W charger that fast-charges laptops, tablets and phones.',            29.99,  200, 'https://picsum.photos/seed/volt-charger/600/400',      2),
-('Zen Smartwatch Series 5',    'AMOLED smartwatch with GPS, heart-rate and SpO2 tracking.',                             179.99, 50,  'https://picsum.photos/seed/zen-smartwatch/600/400',    3),
-('Stride Fitness Band',        'Lightweight fitness band with sleep tracking and a 10-day battery.',                    49.99,  90,  'https://picsum.photos/seed/stride-band/600/400',       3),
-('Lumin LED Desk Lamp',        'Dimmable LED desk lamp with adjustable color temperature and USB port.',                34.99,  80,  'https://picsum.photos/seed/lumin-lamp/600/400',        4),
-('Summit Laptop Stand',        'Aluminium laptop stand with adjustable height and a ventilated design.',                44.99,  65,  'https://picsum.photos/seed/summit-stand/600/400',      4),
-('Atlas Standing Desk Mat',    'Anti-fatigue standing desk mat with a non-slip surface.',                               54.99,  35,  'https://picsum.photos/seed/atlas-mat/600/400',         4);
+('Aurora Wireless Headphones', 'Over-ear wireless headphones with active noise cancellation and 30-hour battery life.', 129.99, 40,  'assets/products/aurora-headphones.svg', 1),
+('Pulse Bluetooth Speaker',    'Compact 360° speaker with deep bass and IPX7 water resistance.',                        59.99,  75,  'assets/products/pulse-speaker.svg',     1),
+('Nimbus 4K Action Camera',    'Rugged 4K/60fps action camera with stabilization and waterproof housing.',              199.99, 25,  'assets/products/nimbus-camera.svg',     1),
+('Quill Noise-Canceling Earbuds', 'True-wireless earbuds with hybrid ANC and a pocket-size charging case.',             99.99,  0,   'assets/products/quill-earbuds.svg',     1),
+('Forge Mechanical Keyboard',  'Hot-swappable mechanical keyboard with tactile switches and RGB backlight.',            89.99,  60,  'assets/products/forge-keyboard.svg',    2),
+('Glide Ergonomic Mouse',      'Silent ergonomic mouse with adjustable DPI and a sculpted grip.',                       39.99,  120, 'assets/products/glide-mouse.svg',       2),
+('Volt USB-C Charger 65W',     'Gallium-nitride 65W charger that fast-charges laptops, tablets and phones.',            29.99,  200, 'assets/products/volt-charger.svg',      2),
+('Zen Smartwatch Series 5',    'AMOLED smartwatch with GPS, heart-rate and SpO2 tracking.',                             179.99, 50,  'assets/products/zen-smartwatch.svg',    3),
+('Stride Fitness Band',        'Lightweight fitness band with sleep tracking and a 10-day battery.',                    49.99,  90,  'assets/products/stride-band.svg',       3),
+('Lumin LED Desk Lamp',        'Dimmable LED desk lamp with adjustable color temperature and USB port.',                34.99,  80,  'assets/products/lumin-lamp.svg',        4),
+('Summit Laptop Stand',        'Aluminium laptop stand with adjustable height and a ventilated design.',                44.99,  65,  'assets/products/summit-stand.svg',      4),
+('Atlas Standing Desk Mat',    'Anti-fatigue standing desk mat with a non-slip surface.',                               54.99,  35,  'assets/products/atlas-mat.svg',         4);
 
 -- A sample completed order for Sara (user_id = 2) so the profile/admin order
 -- views have data to show out of the box.

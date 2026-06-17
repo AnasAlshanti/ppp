@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#1e3a8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#g)"/>
+  <circle cx="500" cy="90" r="140" fill="#ffffff" opacity="0.06"/>
+  <circle cx="90" cy="330" r="110" fill="#ffffff" opacity="0.06"/>
+  <rect x="40" y="40" width="auto" height="28"/>
+  <text x="56" y="66" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700"
+        fill="#ffffff" opacity="0.85" letter-spacing="1.5">ELECTRONICS</text>
+  <text text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="800" fill="#ffffff">
+    <tspan x="300" y="230">Pulse Bluetooth</tspan><tspan x="300" y="272">Speaker</tspan>
+  </text>
+  <text x="300" y="350" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif"
+        font-size="16" fill="#ffffff" opacity="0.7">ShopSphere</text>
+</svg>
